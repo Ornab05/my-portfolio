@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* 1st page design */
+.header{
+    background: #FFF8F3;
+}
+/* my navigations */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 130px;
+    align-items: center;
+}
+
+
+nav li{
+    justify-content:space-between;
+    margin: 20px 55px 5px;
+    background-color: antiquewhite;
+}
+/* design buttons */
+.button-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    height: 44px;
+    padding: 12px 15px 19px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.design-home{
+    font-size:large;
+    border: none;
+    background: #FFFFFF;
+}
+nav li:hover{
+    background: gray;
+}
+/* header title design */
+.header-title{
+    margin: 30px 80px 5px;
+    font-weight:900;
+    font-size: 220%;
+}
+/* inside my nav header */
+.inside-button{
+    color: #FD6E0A;
+}
+
+/* design image */
+
+img{
+    border-radius: 50%; 
+    width: 500px;
+    height: 500px;
+    margin-left: 435px;
+    margin-top: 80px;
+    margin-bottom: 2px;
+    }
+    
