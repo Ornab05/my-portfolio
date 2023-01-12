@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Me</title>
+    <link rel="stylesheet" href="styles/first-style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMbwSg6sGEZ75XphzlYzu3-mIlNmPu5Up4CTgkVw&s">
+    <style>
+      .inside-call-me{
+        height: 200px;
+        width: 300px;
+        padding: 30px 30px;
+        margin: 80px 500px;
+        border: 5px solid red;
+        color:black;
+    
+    }
+    .header.second{
+       background-color: aqua;
+        background:aqua;
+    }
+    @keyframes sliding{
+   0%{ top: 0;
+       left: 0;}
+   
+   50%{
+    top: 90px;
+    left:500px ;
+    background-color: blue;
+   }
+   75%{
+    top: 0;
+    left: 1000px;
+    background-color: cyan;
+   }
+   100%{
+    top: 90px;
+    left: 1200px;
+    background-color: black;
+   }
+
+
+    }
+
+    .ball{
+      height: 50px;
+      width:50px;
+      position: relative;
+      background-color: red;
+      border-radius: 50%;
+      animation: sliding 5s ease-in-out 0.2s infinite alternate;
+      animation-play-state: running;
+
+    }
+    .stage{
+      width: 1350px;
+      height: 140px;
+      border-bottom: 5px solid brown;
+    }
+
+    </style>
+</head>
+<body>
+    <header class="header.second">
+      <div class="stage">
+        <div class="ball">
+         </div>
+
+      </div>
+      <div class="inside-call-me">
+        <h2><center>Hi, Thanks for coming here</center></h2>
+         <h1><center>Here is my number: 01626332966</center></h1>
+      </div>
+
+    </header>
+    
+</body>
+</html>

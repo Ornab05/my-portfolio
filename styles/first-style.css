@@ -26,6 +26,7 @@ nav li{
     justify-content:space-between;
     margin: 20px 55px 5px;
     background-color: antiquewhite;
+    align-items: center;
 }
 /* design buttons */
 .button-primary{
@@ -41,10 +42,17 @@ nav li{
 .design-home{
     font-size:large;
     border: none;
-    background: #FFFFFF;
+    background: #FFF8F3;
 }
+
+.design-home:hover{
+    font-size:large;
+    border: none;
+    background:#FD6E0A;
+    background-color:burlywood;}
+
 nav li:hover{
-    background: gray;
+    background-color:blue;
 }
 /* header title design */
 .header-title{
@@ -65,6 +73,23 @@ img{
     height: 500px;
     margin-left: 435px;
     margin-top: 80px;
-    margin-bottom: 2px;
-    }
+    margin-bottom: 0px;
     
+    }
+  /* .image-design{
+     border-radius: 50%; 
+    width: 500px;
+    height: 500px;
+    margin-left: 435px;
+    margin-top: 80px;
+    margin-bottom: 2px;  
+     background-color: aqua;  
+    background: #FD6E0A;}  */
+
+    /* ornab design */
+    nav a{
+        text-decoration: none;
+        color:black;
+    }
+    /* inside call me button  */
+   
