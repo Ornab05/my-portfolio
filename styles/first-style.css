@@ -6,7 +6,10 @@
 /* 1st page design */
 .header{
     background: #FFF8F3;
+  
 }
+
+
 /* my navigations */
 nav{
     display: flex;
@@ -67,7 +70,7 @@ nav li:hover{
 
 /* design image */
 
-img{
+.main-image{
     border-radius: 50%; 
     width: 500px;
     height: 500px;
@@ -91,5 +94,60 @@ img{
         text-decoration: none;
         color:black;
     }
-    /* inside call me button  */
-   
+    /* all about (About me section)  */
+    .about-me-section{
+        width:600px;
+        height: 250px;
+        border: 2px solid black;
+        margin: 130px 230px 110px;
+        padding: 130px 160px;
+        border-radius: 5%;
+        transition: width 2s, height 2s;
+        background-color:beige;
+    }
+    .about-me-description{
+        color: #757575;
+    }
+    .footer-side{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .about-me-section:hover{
+        width: 600px;
+        height: 250px;
+        transform: scale(0.95);
+    }
+    /* designing my eca */
+    .eca{
+    margin: 10px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding: 30px;
+    }
+    .eca-container{
+        display: flex;
+        gap: 24px;
+    }
+    /* designing educational degrees */
+    .edu-main-div{
+        display: flex;
+        justify-content:space-between;
+        margin: 35px;
+    }
+    .edu-sub-div{
+        margin: 50px 35px;
+        padding: 15px 10px;
+    }
+    /* about my plans */
+    .plans{
+        display: flex;
+        border: 5px solid black;
+        margin-bottom: 500px;
+        box-shadow: 10px 10px 10px grey;
+    }
+    .specific-plans{
+        margin: 80px 30px 40px 90px;
+    }
