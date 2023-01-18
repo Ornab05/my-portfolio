@@ -5,7 +5,7 @@
 }
 /* 1st page design */
 .header{
-    background:#FFF8F3;
+    background: rgba(255, 144, 14, 0.1);;
   
 }
 
@@ -45,18 +45,18 @@ nav li{
 .design-home{
     font-size:large;
     border: none;
-    background: #FFF8F3;
+    background: rgba(255, 144, 14, 0.1);;
 }
 
 .design-home:hover{
     font-size:large;
     border: none;
-    background:#FD6E0A;
-    background-color:burlywood;}
+    text-decoration: underline;
+     /* background:#FD6E0A;
+    background-color:burlywood; */
+} 
 
-nav li:hover{
-    background-color:blue;
-}
+
 /* header title design */
 .header-title{
     margin: 30px 80px 5px;
@@ -117,7 +117,10 @@ nav li:hover{
         width: 600px;
         height: 250px;
         transform: scale(0.95);
-    }
+     }
+     .about-me-foot{
+         color:#757575
+     }
     /* designing my eca */
     .eca{
     margin: 10px 10px;
@@ -205,10 +208,12 @@ nav li:hover{
    
     .eca{
     width: 180px;
+    grid-template-columns: repeat(2,1fr);
    }
   
     .eca-container, .footer-side{
     flex-direction: column;
+    
     gap: 20px;
 
                    }
@@ -219,8 +224,8 @@ nav li:hover{
     }
     .plans{
         flex-direction: column;
-        width: 340px;
-        margin-left: 15px;
+        width:85%;
+        margin-left: 10px;
     }
     .specific-plans, .edu-sub-div{
         margin-left: 5px;
@@ -239,9 +244,17 @@ nav li:hover{
     gap: 10px;
     margin-left: 5px;
     justify-content: center;
+    margin-top: 20px;
   }
   .header-title{
     margin: 20px 30px;
+  }
+  .about-me-foot{
+    text-align: center;
+    color: #757575;
+  }
+  .about-me-para{
+    text-align: center;
   }
     
 }
